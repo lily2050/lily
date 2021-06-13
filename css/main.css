@@ -235,6 +235,11 @@ color: var( --main-color);
   text-align: center;
   font-weight: 750;
   color: var(--main-color);
+  margin: 0 auto !important;
+}
+
+.accordion-button::after {
+  margin-left: 0 !important;
 }
 
 .features .feat {
